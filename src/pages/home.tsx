@@ -424,7 +424,9 @@ export default function Home() {
             
             <div className="border-t border-muted mt-8 pt-8 text-center text-sm text-muted-foreground">
               <p>© 2025 性压抑指数计算器. 仅供教育和自我了解使用，不能替代专业心理健康服务。</p>
-              <p className="mt-2 text-xs">Built by LaoShui</p>
+              <p className="mt-2 text-sm">
+                Built by <a href="https://github.com/laoshuikaixue" target="_blank" rel="noopener noreferrer" className="text-psychology-primary hover:text-psychology-primary/80 transition-colors">LaoShui</a>
+              </p>
             </div>
           </div>
         </footer>
